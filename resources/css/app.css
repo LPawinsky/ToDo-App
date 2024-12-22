@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shaded {
+    opacity: .5;
+    pointer-events: none;
+    transition: opacity .3s ease;
+}
